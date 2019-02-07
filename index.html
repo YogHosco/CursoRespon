@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+    <head>
+        <meta charset="utf-8">
+        <title>Web Responsive con Bootstrap</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/fixed.css">
+    </head>
+    <body data-spy="scroll" data-target="#navbarResponsive">
+        
+        <!--------------INICIO HOME--------------------------->
+        <div id="home">
+            <!-----------INICIO BARRA NAVEGACION-------------->
+            <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+                <a href="#" class="navbar-brand"><img src="img/nuno.png"></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav ml-auto">
+                        <li><a href="#home" class="nav-link">Home</a></li>
+                        <li><a href="#cursos" class="nav-link">Cursos</a></li>
+                        <li><a href="#caracteristicas" class="nav-link">Caracteristicas</a></li>
+                        <li><a href="#recursos" class="nav-link">Recursos</a></li>
+                        <li><a href="#clientes" class="nav-link">Clientes</a></li>
+                        <li><a href="#contacto" class="nav-link">Contacto</a></li>
+                    </ul>
+                </div>
+            </nav>
+            <!-----------FIN BARRA NAVEGACION----------------->
+
+            <!------------COMIENZO LANDING-------------------->
+            <div class="landing">
+                <div class="home-wrap">
+                    <div class="home-inner">
+                     
+                    </div>
+                </div>
+            </div>
+
+            <div class="caption text-center">
+                <h1>Bienvenidos a mi Web</h1>
+                <h3>Curso Bootsrap 4</h3>
+                <a href="#cursos" class="btn btn-outline-light btn-lg">Comienza</a>
+            </div>
+            <!----------------FIN LANDING--------------------->
+
+
+        </div>
+        <!--------------FIN HOME------------------------------>
+
+        <!--------------INICIO CURSOS------------------------->
+        <div id="cursos" class="offset">
+            <div class="col-12 narrow text-center">
+                <h1>Curso Avanzado de Bootstrap</h1>
+                <p class="lead">Aprende Bootstrap,creando webs responsivas paso a paso.</p>
+                <a href="#" class="btn btn-secondary btn-md" target="_blank">Curso de Bootstrap</a>
+            </div>
+        </div>
+        <!--------------FIN CURSOS----------------------.----->
+        
+        <!--------------INICIO CARACTERISTICAS---------------->
+        <div id="caracteristicas" class="offset">
+            
+            <!-----------COMIENZO JUMBOTRON------------------>
+            <div class="jumbotron">
+                <div class="narrow text-center">
+                        <div class="col-12">
+                                <h3 class="heading-fixed">Caracteristicas</h3>
+                                <div class="heading-underline"></div>
+                            </div>
+                    <div class="row text-center">
+                        <div class="col-md-4">
+                            <div class="caracteristica">
+                                <i class="fas fa-play-circle fa-4x" data-fa-transform="shrink-3 up-5"></i>
+                                <h3>Animaciones Personalizables</h3>
+                                <p>Anime.css and Waypoints.js allow for smooth animations scrolling down the site</p>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="caracteristica">
+                                <i class="fas fa-sliders-h fa-4x" data-fa-transform="shrink-4.5 up-4.5"></i>
+                                <h3>Sliders de Contenido</h3>
+                                <p>Owl.Carousel.js makes navigating content sliders seamless with it's content carousel navigation.</p>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="caracteristica">
+                                <i class="fab fa-wpforms fa-4x" data-fa-transform="shrink-4 up-5"></i>
+                                <h3>Formulario de Contacto</h3>
+                                <p>The Bootstrap HTML form will send directly to your email addressusing PHPMailer.php</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--------------FIN JUMBOTRON-------------------->
+
+        </div>
+        <!--------------FIN CARACTERISTICAS------------------->
+
+        <!--------------INICIO RECURSOS----------------------->
+        <div id="recursos" class="offset">
+        <!-------------INICIO FIXED BACK--------------->
+            <div class="fixed-background">
+                <!---------inicio row dark---------->
+                <div class="row dark text-center">
+                    <div class="col-12">
+                        <h3 class="heading">Construye con Cuidado</h3>
+                        <div class="heading-underline"></div>
+                    </div>
+
+                    <div class="col-md-4">
+                        <h3>HTML 5</h3>
+                        <div class="caracteristica">
+                            <i class="fas fa-code fa-3x"></i>
+                        </div>
+                        <p class="lead">Built with the latest, HTML 5.</p>
+                    </div>
+                    <div class="col-md-4">
+                            <h3>BOOTSTRAP 4</h3>
+                            <div class="caracteristica">
+                                <i class="fas fa-bold fa-3x"></i>
+                            </div>
+                            <p class="lead">Built with the latest, BOOTRSTRAP 4.</p>
+                        </div>
+                        <div class="col-md-4">
+                                <h3>CSS 3</h3>
+                                <div class="caracteristica">
+                                    <i class="fab fa-css3 fa-3x"></i>
+                                </div>
+                                <p class="lead">Built with the latest, CSS 3.</p>
+                            </div>
+
+                </div>
+                <!----------fin row dark----------------->
+                <div class="fixed-wrap">
+                    <div class="fixed">
+
+                    </div>
+                </div>
+            </div>
+        <!-------------FIN FIXED BACK--------------->
+        </div>
+        <!--------------FIN RECURSOS-------------------------->
+
+        <!--------------INICIO CLIENTES----------------------->
+        <div id="clientes" class="offset">
+            <!-------------Inicio jumbotron-------------------->
+            <div class="jumbotron">
+                <div class="col-12 text-center">
+                    <h3 class="heading">Clientes</h3>
+                    <div class="heading-underline">
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-md-6 clientes">
+                        <div class="row">
+                            <div class="col-md-4">
+                                <img src="img/client1.png" alt="">
+                            </div>
+                            <div class="col-md-8">
+                                <blockquote>
+                                    <i class="fas fa-quote-left"></i>
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                    Minus nesciunt amet nobis praesentium.
+                                    <hr class="clientes-hr">
+                                    <cite>&#8212; Eric, Dueño PYME</cite>
+                                </blockquote>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6 clientes">
+                            <div class="row">
+                                <div class="col-md-4">
+                                    <img src="img/client2.png" alt="">
+                                </div>
+                                <div class="col-md-8">
+                                    <blockquote>
+                                        <i class="fas fa-quote-left"></i>
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                    Minus nesciunt amet nobis praesentium.
+                                        <hr class="clientes-hr">
+                                        <cite>&#8212; Joan, Dueña XYZ</cite>
+                                    </blockquote>
+                                </div>
+                            </div>
+                        </div>
+                </div>
+
+            </div>
+            <!-------------Fin jumbotron---------------------->
+
+            <div class="col-12 narrow text-center">
+                <p class="lead">¿Quieres Aprender como desarrollar en Bootstrap 4?</p>
+                <a href="#" class="btn btn-secondary btn-md" target="_blank">Curso de Bootstrap</a>
+            </div>
+
+
+        </div>
+        <!--------------FIN CLIENTES-------------------------->
+
+        <!--------------INICIO CONTACTO----------------------->
+        <div id="contacto" class="offset">
+            
+            <footer>
+                <div class="row justify-content-center">
+                    <div class="col-md-5 text-center">
+                        <img src="img/nuno.png" alt="">
+                        <p>At our core is a collection of design and development solutions
+                            that<br>represent everything your business needs to compete in the modern
+                            <br>marketplace.</p>
+                        <strong>Información de Contacto</strong>
+                        <p>(000) 000-00000<br>email@me.com</p>
+                        <a href="#" target="_blank"><i class="fab fa-facebook-square"></i></a>
+                        <a href="#" target="_blank"><i class="fab fa-twitter-square"></i></a>
+                        <a href="#" target="_blank"><i class="fab fa-instagram"></i></a>
+                    </div>
+
+                    <hr class="socket">
+                    &copy;Me Theme.
+
+                </div>
+            </footer>
+
+        </div>
+        <!--------------FIN CONTACTO-------------------------->
+        
+
+        <!-----------------ARCHIVOS DE SCRiPTS---------------------->
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"></script>
+        <script src="https://use.fontawesome.com/releases/v5.5.0/js/all.js"></script>
+        <script src="js/smooth-scroll.js"></script>
+        <script>
+	var scroll = new SmoothScroll('a[href*="#"]');
+</script>
+        <!-----------------FIN ARCHIVOS DE SCRiPTS------------------->
+
+    </body>
+</html>
